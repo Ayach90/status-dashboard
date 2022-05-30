@@ -16,7 +16,7 @@ Jest + React Testing Library - Is pending to add more tests, specially for hooks
 
 ## Run project
 
-# Local
+### Local
 
 - 1.- Clone project
 - 2.- npm i
@@ -25,7 +25,7 @@ Jest + React Testing Library - Is pending to add more tests, specially for hooks
 - 5.- npm start
 - 6.- http://localhost:3000
 
-# Docker
+### Docker
 
 - 1.- Download image (URL)
 - 2.- Create container with the image downloaded docker run -it -p 8080:80 --name dockerstatus statusdashboard
