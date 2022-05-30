@@ -12,6 +12,8 @@ Project to see status and try some services by gRPC calls.
 
 ## Testing
 
+- npm test
+
 Jest + React Testing Library - Is pending to add more tests, specially for hooks and fetched data. At the moment, there are tests in Header and Footer in order to check are rendered it correctly.
 
 ## Run project
@@ -27,8 +29,8 @@ Jest + React Testing Library - Is pending to add more tests, specially for hooks
 
 ### Docker
 
-- 1.- Download image (URL)
-- 2.- Create container with the image downloaded docker run -it -p 8080:80 --name dockerstatus statusdashboard
+- 1.- docker pull angelayach/statusdashboard:latest
+- 2.- Create container with the image pulled: docker run -it -p 8080:80 --name dockerstatus angelayach/statusdashboard
 
 ## TODO
 
